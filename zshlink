@@ -3,6 +3,8 @@
 if [ "$1" = "-f" ]
 then
     ln -f zshrc ~/.zshrc 
+    ln -f zprofile ~/.zprofile
 else
     ln zshrc ~/.zshrc
+    ln zprofile ~/.zprofile
 fi
