@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "-f" ]
+then
+    ln -f zshrc ~/.zshrc 
+else
+    ln zshrc ~/.zshrc
+fi
